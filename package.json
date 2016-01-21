@@ -1,7 +1,7 @@
 {
   "name": "zenith",
   "version": "1.0.0",
-  "description": "",
+  "description": "Zenith!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AgtLucas/Zenith#readme",
   "devDependencies": {
+    "autoprefixer": "^6.3.1",
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
     "babel-plugin-transform-object-rest-spread": "^6.3.13",
@@ -28,13 +29,21 @@
     "html-webpack-plugin": "^1.7.0",
     "image-webpack-loader": "^1.6.3",
     "postcss-loader": "^0.8.0",
+    "stats-webpack-plugin": "^0.3.0",
     "webpack": "^1.12.11",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0"
   },
   "dependencies": {
+    "es6-promise": "^3.0.2",
     "express": "^4.13.3",
+    "lodash": "^4.0.0",
+    "lost": "^6.6.3",
+    "normalize": "^0.3.1",
+    "precss": "^1.4.0",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-dom": "^0.14.6",
+    "rimraf": "^2.5.0",
+    "rucksack-css": "^0.8.5"
   }
 }
